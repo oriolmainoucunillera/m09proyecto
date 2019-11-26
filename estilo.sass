@@ -46,8 +46,10 @@ html
                         margin: 0
                 @media screen and ( max-width: 500px )
                     text-align: center
-                    width: 100px
+                    width: 100%
                     display: none
+                    z-index: 3
+                    
             @media screen and ( max-width: 500px )
                 #toogle:checked + .menu
                     display: block
@@ -59,6 +61,8 @@ html
             position: relative
             border: 10px solid white
             box-shadow: 0px 0px 5px 2px #ccc
+            @media screen and ( max-width: 500px )
+                z-index: -1
             #box
                 img
                     width: 100%
@@ -84,3 +88,43 @@ html
                 position: absolute
                 top: 45%
                 cursor: pointer
+        section
+            padding: 2%
+            display: flex
+            flex-wrap: wrap
+            .libro
+                display: flex
+                flex-wrap: wrap
+                width: 50%
+                
+                p
+                    margin-right: 2%
+                    width: 25%
+
+                img 
+                    width: 60%
+                    margin: 3%
+        footer
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            padding: 1%
+            height: 3%
+            #rrss
+                display: flex
+                width: 27%
+                justify-content: center
+                align-items: center
+                img
+                    width: 10%
+                    height: 50%
+                    margin-left: 8%
+            #descripcion
+                width: 30%
+            #legal
+                width: 30%
+                
+
+
+
+                

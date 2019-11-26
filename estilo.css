@@ -120,4 +120,70 @@ html body #slider .next {
   top: 45%;
   cursor: pointer;
 }
+
+html body section {
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+html body section .libro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+}
+
+html body section .libro p {
+  margin-right: 2%;
+  width: 25%;
+}
+
+html body section .libro img {
+  width: 60%;
+  margin: 3%;
+}
+
+html body footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1%;
+  height: 3%;
+}
+
+html body footer #rrss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 27%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body footer #rrss img {
+  width: 10%;
+  height: 50%;
+  margin-left: 8%;
+}
+
+html body footer #descripcion {
+  width: 30%;
+}
+
+html body footer #legal {
+  width: 30%;
+}
 /*# sourceMappingURL=estilo.css.map */

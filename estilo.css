@@ -17,11 +17,11 @@ html body .nav #logos {
   margin: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 165px) {
   html body .nav #logos {
     height: 40px;
-    width: 45px;
-    margin-left: 5px;
+    width: 30px;
+    margin-left: 8px;
     margin-top: 15px;
   }
 }
@@ -35,7 +35,7 @@ html body .nav label {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   html body .nav label {
     display: block;
     cursor: pointer;
@@ -58,16 +58,17 @@ html body .nav .menu a {
   line-height: 70px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   html body .nav .menu a {
     display: block;
-    background-color: red;
-    border-bottom: 1px solid #EAEAEB;
+    background-color: #ffc5ae;
+    font-size: 25px;
+    border-bottom: 1px solid black;
     margin: 0;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   html body .nav .menu {
     text-align: center;
     width: 100%;
@@ -76,23 +77,23 @@ html body .nav .menu a {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   html body .nav #toogle:checked + .menu {
     display: block;
   }
 }
 
 html body #slider {
-  width: 1000px;
-  height: 500px;
-  margin: 20px auto;
+  width: 98%;
+  height: 30%;
+  margin: 2% auto;
   position: relative;
   border: 10px solid white;
   -webkit-box-shadow: 0px 0px 5px 2px #ccc;
           box-shadow: 0px 0px 5px 2px #ccc;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   html body #slider {
     z-index: -1;
   }
@@ -104,8 +105,8 @@ html body #slider #box img {
 }
 
 html body #slider .prew {
-  border-radius: 0px 10px 10px 0px;
-  padding: 20px;
+  border-radius: 0px 1% px 10px 0px;
+  padding: 2%;
   border: none;
   background: #37f;
   font-size: 30px;
@@ -116,14 +117,13 @@ html body #slider .prew {
 }
 
 html body #slider .next {
-  margin-left: 950px;
+  float: right;
   border-radius: 10px 0px 0px 10px;
   padding: 20px;
   border: none;
   background: #37f;
   font-size: 30px;
   color: white;
-  position: absolute;
   top: 45%;
   cursor: pointer;
 }

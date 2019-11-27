@@ -127,7 +127,31 @@ html
                 width: 30%
 
             #legal
-                width: 30%        
+                width: 30%   
+            @media screen and ( max-width: 480px ) 
+                display: flex
+                flex-wrap: wrap
+                flex-direction: row
+                background-color: #0080DE
+                border-radius: 3%
+                #rrss
+                    width: 10%
+                    display: inline-block
+                    flex-direction: row-reverse
+                    flex-wrap: wrap
+                    align-content: center
+                    justify-content: center
+                    margin-top: 5%
+                    img 
+                        width: 60%
+                        height: 20%
+                
+                #descripcion
+                    width: 40%
+                    text-align: justify
+                #legal
+                    width: 35%
+                    text-align: center
 
         //Carrusel control
         .carousel-control-next, .carousel-control-prev 

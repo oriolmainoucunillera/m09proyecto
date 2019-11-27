@@ -1,5 +1,4 @@
 html {
-<<<<<<< HEAD
   font-family: "helvetica neue", sans-serif;
 }
 
@@ -71,149 +70,8 @@ html body .nav .menu a {
 
 @media screen and (max-width: 900px) {
   html body .nav .menu {
-=======
-  font-family: "helvetica neue", sans-serif; }
-  html body .nav {
-    border-bottom: 1px solid #ffc5ae;
-    background-color: #fcd5c5;
-    text-align: right;
-    height: 70px;
-    line-height: 70px; }
-    html body .nav #logos {
-      float: left;
-      height: 50px;
-      width: 60px;
-      margin: 10px; }
-      @media screen and (max-width: 165px) {
-        html body .nav #logos {
-          height: 40px;
-          width: 30px;
-          margin-left: 8px;
-          margin-top: 15px; } }
-    html body .nav label {
-      display: none;
-      line-height: 70px;
-      margin: 0px 40px 0px 0px;
-      font-size: 26px;
-      width: 26px;
-      float: right; }
-      @media screen and (max-width: 900px) {
-        html body .nav label {
-          display: block;
-          cursor: pointer; } }
-    html body .nav #toogle {
-      display: none; }
-    html body .nav .menu {
-      margin: 0px 30px 0px 0px; }
-      html body .nav .menu a {
-        clear: right;
-        text-decoration: none;
-        color: black;
-        margin: 0px 10px;
-        line-height: 70px; }
-        @media screen and (max-width: 900px) {
-          html body .nav .menu a {
-            display: block;
-            background-color: #ffc5ae;
-            font-size: 25px;
-            border-bottom: 1px solid black;
-            margin: 0; } }
-      @media screen and (max-width: 900px) {
-        html body .nav .menu {
-          text-align: center;
-          width: 100%;
-          display: none;
-          z-index: 3; } }
-    @media screen and (max-width: 900px) {
-      html body .nav #toogle:checked + .menu {
-        display: block; } }
-  html body #slider {
-    width: 100%;
-    height: auto;
-    margin: 20px auto;
-    position: relative;
-    border: 10px solid white;
-    box-shadow: 0px 0px 5px 2px #ccc; }
-    @media screen and (max-width: 900px) {
-      html body #slider {
-        z-index: -1; } }
-    html body #slider #box img {
-      width: 100%;
-      height: auto; }
-    html body #slider .prew {
-      border-radius: 0px 10px 10px 0px;
-      padding: 20px;
-      border: none;
-      background: #37f;
-      font-size: 30px;
-      color: white;
-      position: absolute;
-      cursor: pointer; }
-    html body #slider .next {
-      margin-left: 950px;
-      border-radius: 10px 0px 0px 10px;
-      padding: 20px;
-      border: none;
-      background: #37f;
-      font-size: 30px;
-      color: white;
-      position: absolute;
-      cursor: pointer; }
-  html body section {
-    padding: 2%;
-    display: flex;
-    flex-wrap: wrap; }
-    html body section .libro {
-      display: flex;
-      flex-wrap: wrap;
-      width: 50%; }
-      html body section .libro p {
-        margin-right: 2%;
-        width: 25%; }
-      html body section .libro img {
-        width: 60%;
-        margin: 3%; }
-  html body footer {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1%;
-    height: 3%; }
-    html body footer #rrss {
-      display: flex;
-      width: 27%;
-      justify-content: center;
-      align-items: center; }
-      html body footer #rrss img {
-        width: 10%;
-        height: 50%;
-        margin-left: 8%; }
-    html body footer #descripcion {
-      width: 30%; }
-    html body footer #legal {
-      width: 30%; }
-  html body .carousel-control-next, html body .carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 15%;
-    color: #fff;
->>>>>>> a03fd209ef6fc0c2b9ae57fdbe9951908325c322
     text-align: center;
-    opacity: 0.5; }
-  html body .carousel-control-prev {
-    left: 0; }
-  html body .carousel-control-next {
-    right: 0; }
-  html body .carousel {
-    position: relative; }
-  html body .carousel-inner {
-    position: relative;
     width: 100%;
-<<<<<<< HEAD
     display: none;
     z-index: 3;
   }
@@ -226,6 +84,9 @@ html body .nav .menu a {
 }
 
 html body #slider {
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
   width: 98%;
   height: 30%;
   margin: 2% auto;
@@ -243,7 +104,7 @@ html body #slider {
 
 html body #slider #box img {
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 
 html body #slider .prew {
@@ -254,7 +115,6 @@ html body #slider .prew {
   font-size: 30px;
   color: white;
   position: absolute;
-  top: 45%;
   cursor: pointer;
 }
 
@@ -266,7 +126,6 @@ html body #slider .next {
   background: #37f;
   font-size: 30px;
   color: white;
-  top: 45%;
   cursor: pointer;
 }
 
@@ -331,16 +190,103 @@ html body footer #rrss img {
 html body footer #descripcion {
   width: 30%;
 }
-=======
-    overflow: hidden; }
-  html body .imagen {
-    display: block;
-    width: 100%;
-    margin: auto; }
-  html body .carousel-item {
-    position: relative;
-    align-items: center;
-    width: 100%; }
->>>>>>> a03fd209ef6fc0c2b9ae57fdbe9951908325c322
 
+html body footer #legal {
+  width: 30%;
+}
+
+@media screen and (max-width: 480px) {
+  html body footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: #0080DE;
+    border-radius: 3%;
+  }
+  html body footer #rrss {
+    width: 10%;
+    display: inline-block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 5%;
+  }
+  html body footer #rrss img {
+    width: 60%;
+    height: 20%;
+  }
+  html body footer #descripcion {
+    width: 40%;
+    text-align: justify;
+  }
+  html body footer #legal {
+    width: 35%;
+    text-align: center;
+  }
+}
+
+html body .carousel-control-next, html body .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: .5;
+}
+
+html body .carousel-control-prev {
+  left: 0;
+}
+
+html body .carousel-control-next {
+  right: 0;
+}
+
+html body .carousel {
+  position: relative;
+}
+
+html body .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+html body .imagen {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+html body .carousel-item {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
 /*# sourceMappingURL=estilo.css.map */

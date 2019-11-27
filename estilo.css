@@ -157,6 +157,28 @@ html body section .libro img {
   margin: 3%;
 }
 
+@media screen and (max-width: 480px) {
+  html body section {
+    display: inline;
+  }
+  html body section .libro {
+    width: 100%;
+    background-color: aliceblue;
+    border: solid 1px #B4DDFA;
+    margin-top: 1%;
+    border-radius: 5px;
+  }
+  html body section .libro img {
+    width: 30%;
+    height: 60%;
+  }
+  html body section .libro p {
+    width: 60%;
+    padding: 1%;
+    margin-top: 15%;
+  }
+}
+
 html body footer {
   width: 100%;
   display: -webkit-box;

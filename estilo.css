@@ -55,8 +55,8 @@ html {
       html body .nav #toogle:checked + .menu {
         display: block; } }
   html body #slider {
-    width: 1000px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     margin: 20px auto;
     position: relative;
     border: 10px solid white;
@@ -66,7 +66,7 @@ html {
         z-index: -1; } }
     html body #slider #box img {
       width: 100%;
-      height: 500px; }
+      height: auto; }
     html body #slider .prew {
       border-radius: 0px 10px 10px 0px;
       padding: 20px;

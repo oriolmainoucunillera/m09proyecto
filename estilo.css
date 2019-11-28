@@ -98,6 +98,9 @@ html {
       font-size: 30px;
       color: white;
       cursor: pointer; }
+    @media screen and (max-width: 600px) {
+      html body #slider button {
+        display: none; } }
   html body section {
     padding: 2%;
     display: flex;
@@ -111,11 +114,15 @@ html {
         margin-right: 2%;
         width: 100%; }
       html body section .libro img {
-        width: 100%;
-        margin: 3%; }
+        width: 100%; }
       @media screen and (min-width: 900px) {
         html body section .libro {
           width: 20%;
+          margin-left: 2.5%;
+          margin-right: 2.5%; } }
+      @media screen and (max-width: 899px) {
+        html body section .libro {
+          width: 45%;
           margin-left: 2.5%;
           margin-right: 2.5%; } }
     @media screen and (max-width: 480px) {

@@ -54,6 +54,8 @@ html
                 #toogle:checked + .menu
                     display: block
 
+
+
         article > h2 
             display: flex
             justify-content: center
@@ -98,6 +100,11 @@ html
                 font-size: 30px
                 color: white
                 cursor: pointer
+
+            button
+                @media screen and ( max-width: $ancho )
+                    display: none
+
         section
             padding: 2%
             display: flex
@@ -114,13 +121,16 @@ html
 
                 img 
                     width: 100%
-                    margin: 3%
 
                 @media screen and ( min-width: 900px )
                     width: 20%
                     margin-left: 2.5%
                     margin-right: 2.5%
 
+                @media screen and ( max-width: 899px )
+                    width: 45%
+                    margin-left: 2.5%
+                    margin-right: 2.5%
 
 
 
@@ -229,5 +239,7 @@ html
             position: relative
             align-items: center
             width: 100%
+
+
 
 

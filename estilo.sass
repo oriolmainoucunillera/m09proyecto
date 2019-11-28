@@ -26,7 +26,7 @@ html
                 font-size: 26px
                 width: 26px
                 float: right
-                @media screen and ( max-width: 900px )
+                @media screen and ( max-width: $ancho )
                     display: block
                     cursor: pointer
             #toogle
@@ -39,18 +39,18 @@ html
                     color: black
                     margin: 0px 10px
                     line-height: 70px
-                    @media screen and ( max-width: 900px )
+                    @media screen and ( max-width: $ancho )
                         display: block
                         background-color: $color6
                         font-size: 25px
                         border-bottom: 1px solid black
                         margin: 0
-                @media screen and ( max-width: 900px )
+                @media screen and ( max-width: $ancho )
                     text-align: center
                     width: 100%
                     display: none
                     z-index: 3
-            @media screen and ( max-width: 900px )
+            @media screen and ( max-width: $ancho )
                 #toogle:checked + .menu
                     display: block
         
@@ -64,8 +64,12 @@ html
             position: relative
             border: 10px solid white
             box-shadow: 0px 0px 5px 2px #ccc
-            @media screen and ( max-width: 900px )
+            @media screen and ( max-width: $ancho )
                 z-index: -1
+            @media screen and ( min-width: 900px ) and ( max-width: 1099px )
+                width: 80%
+            @media screen and ( min-width: 1100px )
+                width: 60%
             #box
                 img
                     width: 100%
@@ -105,6 +109,11 @@ html
                 img 
                     width: 60%
                     margin: 3%
+
+                @media screen and ( min-width: 900px )
+                    width: 25%
+
+
         
             @media screen and ( max-width: 480px )
                 display: inline
@@ -209,3 +218,5 @@ html
             position: relative
             align-items: center
             width: 100%
+
+

@@ -54,6 +54,10 @@ html {
     @media screen and (max-width: 600px) {
       html body .nav #toogle:checked + .menu {
         display: block; } }
+  html body article > h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0; }
   html body #slider {
     width: 100%;
     height: auto;
@@ -101,16 +105,19 @@ html {
     html body section .libro {
       display: flex;
       flex-wrap: wrap;
-      width: 50%; }
+      width: 50%;
+      flex-direction: column; }
       html body section .libro p {
         margin-right: 2%;
-        width: 25%; }
+        width: 100%; }
       html body section .libro img {
-        width: 60%;
+        width: 100%;
         margin: 3%; }
       @media screen and (min-width: 900px) {
         html body section .libro {
-          width: 25%; } }
+          width: 20%;
+          margin-left: 2.5%;
+          margin-right: 2.5%; } }
     @media screen and (max-width: 480px) {
       html body section {
         display: inline; }

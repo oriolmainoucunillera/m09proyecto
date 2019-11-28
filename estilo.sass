@@ -53,6 +53,11 @@ html
             @media screen and ( max-width: $ancho )
                 #toogle:checked + .menu
                     display: block
+
+        article > h2 
+            display: flex
+            justify-content: center
+            margin: 0
         
         #slider
             width: 100%
@@ -101,17 +106,22 @@ html
                 display: flex
                 flex-wrap: wrap
                 width: 50%
+                flex-direction: column
                 
                 p
                     margin-right: 2%
-                    width: 25%
+                    width: 100%
 
                 img 
-                    width: 60%
+                    width: 100%
                     margin: 3%
 
                 @media screen and ( min-width: 900px )
-                    width: 25%
+                    width: 20%
+                    margin-left: 2.5%
+                    margin-right: 2.5%
+
+
 
 
         
@@ -131,6 +141,7 @@ html
                         width: 60%
                         padding: 1%
                         margin-top: 15%
+
                  
                 
                   
